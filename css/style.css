@@ -74,7 +74,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  div {
+  & div {
     text-align: center;
   }
 }
@@ -92,7 +92,7 @@ nav {
   justify-content: space-around;
   border: 2px solid var(--secundary-color);
   border-radius: 10px;
-  a {
+  & a {
     font-family: Fuggles, Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: var(--secundary-color);
   }
@@ -129,7 +129,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   border-top: 2px solid var(--secundary-color);
-  a {
+  & a {
     color: var(--secundary-color);
   }
 }
